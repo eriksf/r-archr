@@ -1,6 +1,7 @@
 FROM rocker/tidyverse:4.3.0
 LABEL maintainer="Erik Ferlanti <eferlanti@tacc.utexas.edu>"
 
+# Configure ENV
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install system dependencies
